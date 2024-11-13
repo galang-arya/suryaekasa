@@ -11,5 +11,6 @@ $mysqliconnect = mysqli_connect($servername, $username, $password, $dbname);
 // Cek koneksi
 if (!$mysqliconnect) {
     die("Connection failed: " . mysqli_connect_error());
+// tes
 }
 ?>
